@@ -9,7 +9,6 @@ export default function NavBar() {
             <Link to="chips" className="item">Chips</Link>
             <Link to="candy" className="item">Candy</Link>
             <Link to="soda" className="item">Soda</Link>
-            <Link to="tab" className="item">For Tabitha</Link>
         </nav>
     );
 }
