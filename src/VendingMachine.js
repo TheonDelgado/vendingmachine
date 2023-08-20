@@ -4,6 +4,7 @@ import Chips from "./Chips";
 import Candy from "./Candy";
 import Home from "./Home";
 import Soda from "./Soda";
+import ForTabitha from "./ForTabitha";
 
 export default function VendingMachine() {
     return (
@@ -14,6 +15,7 @@ export default function VendingMachine() {
             <Route path="chips" element={<Chips/>}/>
             <Route path="candy" element={<Candy/>}/>
             <Route path="soda" element={<Soda/>}/> 
+            <Route path="tab" element={<ForTabitha/>}/> 
         </Routes>
        </BrowserRouter>
     );

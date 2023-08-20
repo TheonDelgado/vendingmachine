@@ -6,3 +6,8 @@
     margin-left: 7px;
     margin-right: 7px;
 }
+
+.tab {
+    max-width: 1000px;
+    max-height: 1000px;
+}
